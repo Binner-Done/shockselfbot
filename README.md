@@ -14,7 +14,8 @@ For the commands, I will be using the prefix `shock.`, please note yours will be
 - shock.refund - "Simply open a support ticket (https://shockbyte.com/billing/submitticket.php) asking for a refund, please make sure you are with in the 24 hour refund period, otherwise you might not be eligible for a refund."
 - shock.multipass - "You can reset your **Multicraft** password in the client area by navigating to Services > My Services > Select a service > Change Password (under \"Actions\"). You can get to your multicraft panel here: https://mc.shockbyte.com"
 - shock.ticketsoon - "Please be patient while we get around to your ticket, we get a lot of tickets daily, don't worry, we will get around to it!"
-- shock.tospriv - "Shockbyte Terms of Service: https://shockbyte.com/terms-of-service\nShockbyte Privacy Policy: https://shockbyte.com/privacy-policy"
+- shock.tospriv - "Shockbyte Terms of Service: https://shockbyte.com/terms-of-service
+Shockbyte Privacy Policy: https://shockbyte.com/privacy-policy"
 
 Config
 ======
