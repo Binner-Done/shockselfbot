@@ -16,12 +16,8 @@ public class RefundCommand implements Command {
     }
 
     @Override
-    public String getCommand() {
-        return "refund";
-    }
+    public String getCommand() { return "refund"; }
 
     @Override
-    public String getDescription() {
-        return null;
-    }
+    public String getDescription() { return null; }
 }

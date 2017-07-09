@@ -16,12 +16,8 @@ public class ResetMulticraftCommand implements Command {
     }
 
     @Override
-    public String getCommand() {
-        return "multipass";
-    }
+    public String getCommand() { return "multipass"; }
 
     @Override
-    public String getDescription() {
-        return null;
-    }
+    public String getDescription() { return null; }
 }

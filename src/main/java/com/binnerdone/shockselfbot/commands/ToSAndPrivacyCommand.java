@@ -16,12 +16,8 @@ public class ToSAndPrivacyCommand implements Command {
     }
 
     @Override
-    public String getCommand() {
-        return "tospriv";
-    }
+    public String getCommand() { return "tospriv"; }
 
     @Override
-    public String getDescription() {
-        return null;
-    }
+    public String getDescription() { return null; }
 }

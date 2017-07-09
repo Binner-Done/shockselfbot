@@ -16,12 +16,8 @@ public class DediIp implements Command {
     }
 
     @Override
-    public String getCommand() {
-        return "dedi";
-    }
+    public String getCommand() { return "dedi"; }
 
     @Override
-    public String getDescription() {
-        return null;
-    }
+    public String getDescription() { return null; }
 }

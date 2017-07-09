@@ -18,12 +18,8 @@ public class FeedbackCommand implements Command {
     }
 
     @Override
-    public String getCommand() {
-        return "feedback";
-    }
+    public String getCommand() { return "feedback"; }
 
     @Override
-    public String getDescription() {
-        return null;
-    }
+    public String getDescription() { return null; }
 }

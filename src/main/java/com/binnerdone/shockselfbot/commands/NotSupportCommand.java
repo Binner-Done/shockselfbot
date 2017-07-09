@@ -16,9 +16,7 @@ public class NotSupportCommand implements Command {
     }
 
     @Override
-    public String getCommand() {
-        return "notsupport";
-    }
+    public String getCommand() { return "notsupport"; }
 
     @Override
     public String getDescription() {

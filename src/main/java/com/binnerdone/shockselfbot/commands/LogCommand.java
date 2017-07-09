@@ -16,12 +16,8 @@ public class LogCommand implements Command {
     }
 
     @Override
-    public String getCommand() {
-        return "log";
-    }
+    public String getCommand() { return "log"; }
 
     @Override
-    public String getDescription() {
-        return null;
-    }
+    public String getDescription() { return null; }
 }

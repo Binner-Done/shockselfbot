@@ -16,12 +16,8 @@ public class TicketSoonCommand implements Command {
     }
 
     @Override
-    public String getCommand() {
-        return "ticketsoon";
-    }
+    public String getCommand() { return "ticketsoon"; }
 
     @Override
-    public String getDescription() {
-        return null;
-    }
+    public String getDescription() { return null; }
 }
