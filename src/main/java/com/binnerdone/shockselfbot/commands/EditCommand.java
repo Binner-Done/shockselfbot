@@ -1,4 +1,4 @@
-package com.binnerdone.shockselfbot;
+package com.binnerdone.shockselfbot.commands;
 
 import com.walshydev.jba.commands.Command;
 import net.dv8tion.jda.core.entities.Member;
