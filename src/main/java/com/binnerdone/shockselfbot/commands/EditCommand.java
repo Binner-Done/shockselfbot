@@ -7,17 +7,27 @@ import net.dv8tion.jda.core.entities.MessageChannel;
 import net.dv8tion.jda.core.entities.User;
 
 /**
- * Created by jack on 09/07/17.
+ * Created by William on 10/07/2017.
+ * Project ShockSelfBot
  */
-public class CreateTicket implements Command {
+public class EditCommand implements Command {
+
+    private String command;
+    private String message;
+
+    EditCommand(String command, String message) {
+        this.command = command;
+        this.message = message;
+    }
+
     @Override
     public void onCommand(User user, MessageChannel messageChannel, Message message, String[] strings, Member member) {
-        message.editMessage("Please create a ticket, this enables us to help you further. You can login to the client area at: https://shockbyte.com/billing/clientarea.php and can then open a ticket at: https://shockbyte.com/billing/submitticket.php").queue();
+        message.editMessage(this.message).queue();
     }
 
     @Override
     public String getCommand() {
-        return "ticket";
+        return command;
     }
 
     @Override
