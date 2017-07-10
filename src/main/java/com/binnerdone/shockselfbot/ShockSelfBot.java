@@ -1,5 +1,6 @@
 package com.binnerdone.shockselfbot;
 
+import com.binnerdone.shockselfbot.commands.EditCommand;
 import com.binnerdone.shockselfbot.commands.FeedbackCommand;
 import com.walshydev.jba.Config;
 import com.walshydev.jba.JBA;
